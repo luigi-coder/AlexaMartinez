@@ -176,8 +176,8 @@ console.log(n1 != n2 && n2 != n1) // true && true = true;
 console.log(!(n1 == n2)); */
 
 
-let nombre = prompt("Por favor, introduce tu nombre: ");
-let apellido = prompt("Por favor, introduce tu apellido: ");
+/* let nombre = prompt("Por favor, introduce tu nombre: ");
+let apellido = prompt("Por favor, introduce tu apellido: "); */
 
 /* if(nombre == "Alexa" && apellido == "Martinez"){
 
@@ -208,4 +208,165 @@ if(nombre == "Alexa" || apellido == "Martinez"){
 	alert("Bienvenido a la clinica de Alexa");
 }
  */
+
+// Aplicacion de turnos 
+
+/* let e1 = "Dermatologia", 
+	e2 = "Clinica", 
+	e3 = "Cirugia";
+
+
+let nombre = prompt("Ingrese su nombre: ");
+
+let eleccion = parseInt(prompt(`
+	${nombre}, elige tu especialidad segun el numeros
+	que corresponda;
+	1. ${e1}
+	2. ${e2}
+	3. ${e3}
+`));
+
+let manana = "Mañana",
+	tarde = "Tarde", 
+	noche = "Noche";
+
+let hora = parseInt(prompt(`${nombre}, elegi el horario de tu turno
+	1. Mañana 8am a 12am
+	2. Tarde 13pm a 19pm
+	3. Noche 20pm a 22pm
+`)) */
+
+// Tarea, completar los else correspondientes.
+// Tarea, seguir la programacion para ser mas especifico con los horarios 
+// que en el console.log diga, Luis, elegiste la especialidad dermatoliga, 
+// en el horario de la mañana 10am.
+
+/* if(eleccion === 1){
+	
+	if(hora === 1){
+
+		console.log(`${nombre}, elegiste la especialidad ${e1}, en el horario de la ${manana}`);
+
+	}else if(hora === 2){
+
+		console.log(`${nombre}, elegiste la especialidad ${e1}, en el horario de la ${tarde}`);
+
+	}else if(hora === 3){
+
+		console.log(`${nombre}, elegiste la especialidad ${e1}, en el horario de la ${noche}`);
+	}
+
+
+}else if(eleccion === 2){
+
+	if(hora === 1){
+
+		console.log(`${nombre}, elegiste la especialidad ${e2}, en el horario de la ${manana}`);
+
+	}else if(hora === 2){
+
+		console.log(`${nombre}, elegiste la especialidad ${e2}, en el horario de la ${tarde}`);
+
+	}else if(hora === 3){
+
+		console.log(`${nombre}, elegiste la especialidad ${e2}, en el horario de la ${noche}`);
+	}
+
+}else if(eleccion === 3){
+
+	if(hora === 1){
+
+		console.log(`${nombre}, elegiste la especialidad ${e3}, en el horario de la ${manana}`);
+
+	}else if(hora === 2){
+
+		console.log(`${nombre}, elegiste la especialidad ${e3}, en el horario de la ${tarde}`);
+
+	}else if(hora === 3){
+
+		console.log(`${nombre}, elegiste la especialidad ${e3}, en el horario de la ${noche}`);
+	}
+}
+else{
+
+	console.log(`${nombre}, debes colocar una especialidad que 
+	esten entre las opciones`)
+} */
+
+// operadores avanzados aritmeticos
+
+/* let n1 = 10;
+console.log(n1)
+n1++;
+console.log(n1)
+n1--;
+console.log(n1) */
+
+/* let numero = 10;
+console.log(numero)
+// numero = numero + 2;
+numero += 2;
+console.log(numero) */
+
+
+// Ciclos en javascript
+
+// inicializador
+// freno
+// incrementador o decrementador
+
+for(let i=0; i<10; i++){
+
+	if(i == 4){
+		continue;
+	}
+
+	console.log(i)
+
+}
+
+/* for (let i = 10; i > 0; i--) {
+	
+	console.log(i);
+
+} */
+
+// Tarea Hacer backtick
+
+/* for (let i = 0; i < 2; i++) {
+    // En cada repetición solicitamos un nombre.
+    let ingresarNombre = prompt("Ingresar nombre");
+    // Informamos el turno asignado usando el número de repetición (i).
+    alert(" Turno  N° "+ (i+1) + " Nombre: "+ingresarNombre);
+} */
+
+/* let n1 = 0;
+
+
+while(n1 < 10) {
+
+	console.log(n1);
+
+	n1++;
+	
+} */
+/* 
+let nombre = "";
+
+
+while(nombre != "Alexa") {
+
+	nombre = prompt("Adivina el nombre que empieza con A: ");
+
+	console.log(nombre);
+}; */
+
+// Quiero que programes un while que le pregunte 
+// constantemente al usuarios algo, y que le des
+// la opcion de escribir algo para salir
+
+
+
+
+
 
